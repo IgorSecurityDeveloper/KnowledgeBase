@@ -2,9 +2,9 @@ function KbAccordion({ tipoDoenca, nomeDoenca, infoGerais, infoGeraisImg, infoSi
 
   return (
 <>
-    <h2 className="title mt-4">Doença {tipoDoenca}:{nomeDoenca}</h2>
+    <h1 className="title mt-4">Doença {tipoDoenca}:{nomeDoenca}</h1>
 
-    <div className="accordion mt-4" id="accordionExample">
+    <div className="accordion mt-4 shadow" id="accordionExample">
       <div className="accordion-item">
         <h2 className="accordion-header" id="headingOne">
           <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
