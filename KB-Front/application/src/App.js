@@ -1,6 +1,7 @@
 import './App.css';
 import icon from './images/icon.png';
-import KbAccordion from './components/KbAccordion';
+import KbAccordion from './components/accordions/KbAccordion';
+import giardia from "./images/giardia.webp"
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
               <li className="nav-item">
                 <a className="nav-link active aw" aria-current="page" href="#">Início</a>
               </li>
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle aw" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Perfil
                 </a>
@@ -28,7 +29,7 @@ function App() {
                   <li><hr className="dropdown-divider" /></li>
                   <li><a className="dropdown-item" href="#">Configurações</a></li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link aw" href="" alt="Voltar para o início">Categorias</a>
               </li>
@@ -46,7 +47,15 @@ function App() {
 
       <div className="container mt-4">
 
-        <KbAccordion />
+
+        <KbAccordion 
+        tipoDoenca="Verme " 
+        nomeDoenca=" Giárdia" 
+        infoGerais = "um dos tipos de vermes em gatos mais comuns, a giárdia também é considerada uma zoonose. Causada pelo parasita Giardia lamblia, esse verme de gato contamina o felino depois que ele ingere algo contaminado com a doença. É comum aparecer em água não filtrada, alimentos que não foram bem lavados e objetos compartilhados entre animais infectados."
+        infoGeraisImg = {giardia}
+        infoSintomas = "Os sintomas mais comuns são fezes líquidas ou pastosas, com cheiro forte e que podem ser esverdeadas, falta de apetite, perda de peso, pelos sem brilho e com queda acentuada, vômitos, sensibilidade abdominal, flatulência, desidratação, fraqueza."
+        infoTratamento = "A medicação prescrita, na maioria dos casos, é o metronidazol, e este não deve ser administrado em fêmeas prenhes. Outras medicações como o albendazol, o fembendazol e a combinação de febantel/pirantel/praziquantel também podem ser prescritos pelo Médico-Veterinário."
+        />
 
       </div>
     </>

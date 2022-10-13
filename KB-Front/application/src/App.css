@@ -10,3 +10,8 @@ a {
 .aw:hover {
   color: #79DFC1;
 }
+
+.float-end {
+  width: 250px;
+  height: 200px;
+}
