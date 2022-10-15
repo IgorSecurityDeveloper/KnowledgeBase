@@ -11,6 +11,11 @@ a {
   color: #79DFC1;
 }
 
-.navbar-toggler-icon{
-  background-color: rgb(4, 253, 253);
+.card {
+  width: 18rem;
+  float: left;
+}
+
+.marginauto {
+  margin:auto;
 }

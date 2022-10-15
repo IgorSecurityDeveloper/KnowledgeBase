@@ -1,9 +1,9 @@
 import './App.css';
 import icon from './images/icon.png';
-import celula from "./images/celula.jpg";
 import KbAccordion from './components/accordions/KbAccordion';
 import giardia from "./images/giardia.webp"
-import DoencaCard from './components/cards/DoencaCard';
+import CardGroup from './components/cards/CardGroup';
+import menuicon from './images/menuicon.png';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <div className="container-fluid">
           <a className="navbar-brand" href="#"><img src={icon} alt="logo" /></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"><img src={menuicon} alt="Icone do menu" /></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -33,7 +33,7 @@ function App() {
                 </ul>
               </li> */}
               <li className="nav-item">
-                <a className="nav-link aw" href="" alt="Voltar para o início">Categorias</a>
+                <a className="nav-link aw" href="#" alt="Voltar para o início">Categorias</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link aw" href="#">Informações</a>
@@ -61,11 +61,7 @@ function App() {
 
         <br />
 
-        <DoencaCard ImgDoenca={celula} />
-
-        <DoencaCard ImgDoenca={celula} />
-        
-        <DoencaCard ImgDoenca={celula} />
+<CardGroup />
 
       </div>
     </>
