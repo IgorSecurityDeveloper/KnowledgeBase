@@ -1,0 +1,101 @@
+[
+    {
+        "id": "1",
+        "tipoDoenca": "Vírus", 
+        "nomeDoenca": "Giárdia", 
+        "infoGerais": "um dos tipos de vermes em gatos mais comuns, a giárdia também é considerada uma zoonose. Causada pelo parasita Giardia lamblia, esse verme de gato contamina o felino depois que ele ingere algo contaminado com a doença. É comum aparecer em água não filtrada, alimentos que não foram bem lavados e objetos compartilhados entre animais infectados.", 
+        "infoGeraisImg": "", 
+        "infoSintomas": "Os sintomas mais comuns são fezes líquidas ou pastosas, com cheiro forte e que podem ser esverdeadas, falta de apetite, perda de peso, pelos sem brilho e com queda acentuada, vômitos, sensibilidade abdominal, flatulência, desidratação, fraqueza.", 
+        "infoTratamento": "A medicação prescrita, na maioria dos casos, é o metronidazol, e este não deve ser administrado em fêmeas prenhes. Outras medicações como o albendazol, o fembendazol e a combinação de febantel/pirantel/praziquantel também podem ser prescritos pelo Médico-Veterinário."
+    },
+    {
+        "id": "2",
+        "tipoDoenca": "Vírus", 
+        "nomeDoenca": "", 
+        "infoGerais": "", 
+        "infoGeraisImg": "", 
+        "infoSintomas": "", 
+        "infoTratamento": ""
+    },
+    {
+        "id": "3",
+        "tipoDoenca": "Vírus", 
+        "nomeDoenca": "", 
+        "infoGerais": "", 
+        "infoGeraisImg": "", 
+        "infoSintomas": "", 
+        "infoTratamento": ""
+    },
+    {
+        "id": "4",
+        "tipoDoenca": "Verme", 
+        "nomeDoenca": "", 
+        "infoGerais": "", 
+        "infoGeraisImg": "", 
+        "infoSintomas": "", 
+        "infoTratamento": ""
+    },
+    {
+        "id": "5",
+        "tipoDoenca": "", 
+        "nomeDoenca": "", 
+        "infoGerais": "", 
+        "infoGeraisImg": "", 
+        "infoSintomas": "", 
+        "infoTratamento": ""
+    },
+    {
+        "id": "6",
+        "tipoDoenca": "", 
+        "nomeDoenca": "", 
+        "infoGerais": "", 
+        "infoGeraisImg": "", 
+        "infoSintomas": "", 
+        "infoTratamento": ""
+    },
+    {
+        "id": "7",
+        "tipoDoenca": "", 
+        "nomeDoenca": "", 
+        "infoGerais": "", 
+        "infoGeraisImg": "", 
+        "infoSintomas": "", 
+        "infoTratamento": ""
+    },
+    {
+        "id": "8",
+        "tipoDoenca": "", 
+        "nomeDoenca": "", 
+        "infoGerais": "", 
+        "infoGeraisImg": "", 
+        "infoSintomas": "", 
+        "infoTratamento": ""
+    },
+    {
+        "id": "9",
+        "tipoDoenca": "", 
+        "nomeDoenca": "", 
+        "infoGerais": "", 
+        "infoGeraisImg": "", 
+        "infoSintomas": "", 
+        "infoTratamento": ""
+    },
+    {
+        "id": "10",
+        "tipoDoenca": "", 
+        "nomeDoenca": "", 
+        "infoGerais": "", 
+        "infoGeraisImg": "", 
+        "infoSintomas": "", 
+        "infoTratamento": ""
+    },
+    {
+        "id": "11",
+        "tipoDoenca": "", 
+        "nomeDoenca": "", 
+        "infoGerais": "", 
+        "infoGeraisImg": "", 
+        "infoSintomas": "", 
+        "infoTratamento": ""
+    }
+]
